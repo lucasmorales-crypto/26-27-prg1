@@ -18,5 +18,13 @@ public class DevolverCambio {
         int monedas2;
         int monedas1;
 
+        System.out.println("¿Cuántos euros debe pagar?");
+        importePagar = teclado.nextInt();
+        System.out.println();
+        System.out.println("¿Con cuántos euros paga?");
+        importeEntregado = teclado.nextInt();
+        cambio = importeEntregado - importePagar;
     }
-}
+} 
+
+
